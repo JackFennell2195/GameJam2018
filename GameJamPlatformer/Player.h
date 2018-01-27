@@ -22,8 +22,12 @@ public:
 
 private:
 	sf::RectangleShape player;
+	sf::RectangleShape ground;
+	sf::RectangleShape roof;
 
 	sf::Vector2f position;
+	sf::Vector2f g_position;
+	sf::Vector2f r_position;
 	sf::Vector2f velocity;
 
 	sf::Vector2f acceleration;
@@ -31,5 +35,6 @@ private:
 	sf::Vector2f unitVelocity;
 	
 	bool alive;
+	bool onGround;
 };
 
