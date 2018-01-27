@@ -22,13 +22,17 @@
     <ClCompile Include="brick.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SplashScreen.cpp" />
     <ClCompile Include="Walls.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="brick.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="ScreenSize.h" />
+    <ClInclude Include="SplashScreen.h" />
     <ClInclude Include="Walls.h" />
   </ItemGroup>
   <ItemGroup>

@@ -39,13 +39,13 @@ void Player::update(sf::Time t_deltaTime)
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
 	{
-		if (velocity.x >= -400)
+		if (velocity.x >= -250)
 			velocity.x -= (2 * PIXELTOMETER);
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
 	{
-		if (velocity.x <= 400)
+		if (velocity.x <= 250)
 			velocity.x += (2 * PIXELTOMETER);
 	}
 
