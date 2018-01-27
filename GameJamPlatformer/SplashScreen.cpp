@@ -59,7 +59,7 @@ void SplashScreen::update(sf::Time time)
 {
 	if (m_proceedKeyPressed)
 	{
-
+		Game::currentState = GameState::MainMenu;
 	}
 	m_proceedKeyPressed = false;
 }
