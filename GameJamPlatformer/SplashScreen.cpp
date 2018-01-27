@@ -2,6 +2,14 @@
 
 SplashScreen::SplashScreen()
 {
+	if (!m_splashTexture.loadFromFile("ASSETS\\game Sprites\\splashScreen.png"))
+	{
+		std::cout << "error loading splashScreen" << std::endl;
+	}
+
+	m_splashSprite.setTexture(m_splashTexture);
+	m_splashSprite.setScale(2.25, 1.9);
+	m_splashSprite.setPosition(0,0);
 }
 
 

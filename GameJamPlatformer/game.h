@@ -4,6 +4,7 @@
 #include <SFML/Graphics.hpp>
 #include "Player.h"
 #include "Walls.h"
+#include "SplashScreen.h"
 
 class Game
 {
@@ -28,6 +29,8 @@ private:
 	Player player1;
 
 	Walls wall;
+
+	SplashScreen splash;
 };
 
 #endif // !GAME

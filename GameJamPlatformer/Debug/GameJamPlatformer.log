@@ -1,2 +1,4 @@
-﻿  GameJamPlatformer.vcxproj -> C:\Users\gamejam\Source\Repos\GameJam20189\GameJamPlatformer\Debug\GameJamPlatformer.exe
-  GameJamPlatformer.vcxproj -> C:\Users\gamejam\Source\Repos\GameJam20189\GameJamPlatformer\Debug\GameJamPlatformer.pdb (Partial PDB)
+﻿  SplashScreen.cpp
+c:\users\gamejam\desktop\gamejam2018\gamejamplatformer\splashscreen.cpp(11): warning C4305: 'argument': truncation from 'double' to 'float'
+  GameJamPlatformer.vcxproj -> C:\Users\gamejam\Desktop\GameJam2018\GameJamPlatformer\Debug\GameJamPlatformer.exe
+  GameJamPlatformer.vcxproj -> C:\Users\gamejam\Desktop\GameJam2018\GameJamPlatformer\Debug\GameJamPlatformer.pdb (Partial PDB)

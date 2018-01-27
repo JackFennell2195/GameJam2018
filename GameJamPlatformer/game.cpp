@@ -79,5 +79,6 @@ void Game::render()
 	m_window.clear();
 	wall.render(m_window);
 	player1.render(m_window);
+	splash.render(m_window);
 	m_window.display();
 }
